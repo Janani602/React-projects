@@ -1,0 +1,13 @@
+function alertMsg(){
+    alert("Message from Javascript Alert!");
+    console.log("Message to developer");
+}
+function App(){
+    return(
+        <div className="App">
+            <h1>Let we see the output of the JAVASCRIPT</h1>
+<button onClick={alertMsg}>Check</button>
+        </div>
+    )
+}
+export default App;
