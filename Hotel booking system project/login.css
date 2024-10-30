@@ -1,0 +1,80 @@
+/* App1.css */
+
+/* Full-page background */
+body, .login-page-background {
+    background-image: url('https://img.freepik.com/premium-photo/blurred-hotel-office-building-lobby-blur-background-interior-view-toward-receptio-generative-ai_1259709-139133.jpg'); /* Example background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container h4 {
+    color: #2e7d32; /* Matches Material-UI 'success' color */
+}
+
+form {
+    width: 100%; /* Full width for form elements */
+}
+
+form .MuiTextField-root {
+    margin-bottom: 15px;
+}
+
+.MuiButton-containedSuccess {
+    background-color: #2e7d32;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.MuiButton-containedSecondary {
+    background-color: #db4437; /* Google red */
+}
+
+.MuiTypography-root {
+    color: #333;
+}
+
+.MuiLink-root {
+    color: #1976d2; /* Material-UI default link color */
+    text-decoration: none;
+}
+
+.MuiLink-root:hover {
+    text-decoration: underline;
+}
+
+.login-container .MuiButton-root {
+    margin-top: 15px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.login-container .MuiBox-root {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-container .MuiTypography-body2 {
+    margin-top: 20px;
+    color: #666;
+}

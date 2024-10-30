@@ -1,0 +1,64 @@
+/* signup.css */
+
+.signup-container {
+    background-image: url('https://img.freepik.com/premium-photo/blurred-hotel-office-building-lobby-blur-background-interior-view-toward-receptio-generative-ai_1259709-139133.jpg'); /* Example background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-box {
+    background-color: #ffffff; /* White background for the box */
+    padding: 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 100%; /* Full width within the container */
+    max-width: 400px; /* Limit the maximum width */
+}
+
+.signup-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 16px; /* Space below title */
+    text-align: center; /* Center title */
+}
+
+.signup-button {
+    margin-top: 16px; /* Space above the button */
+    background-color: #28a745; /* Green color */
+    color: #ffffff; /* White text */
+    font-weight: bold; /* Bold text */
+}
+
+.social-button {
+    margin-top: 8px; /* Space above social buttons */
+}
+
+.social-button.facebook {
+    background-color: #3b5998; /* Facebook color */
+    color: #ffffff; /* White text */
+}
+
+.social-button.facebook:hover {
+    background-color: #2d4373; /* Darker Facebook color on hover */
+}
+
+.social-button.google {
+    background-color: #db4437; /* Google color */
+    color: #ffffff; /* White text */
+}
+
+.social-button.google:hover {
+    background-color: #c13527; /* Darker Google color on hover */
+}
+
+.error {
+    color: #d32f2f; /* Error color for error messages */
+    text-align: center; /* Center error message */
+}

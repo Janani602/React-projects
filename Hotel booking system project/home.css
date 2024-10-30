@@ -1,0 +1,83 @@
+/* home.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Top bar styles */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding as needed */
+    position: relative;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better visibility */
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Shadow for better visibility */
+  }
+  
+  /* Button styles */
+  button {
+    margin-top: 20px; /* Space above buttons */
+  }
+  
+  /* Resort details section styles */
+  .container h4 {
+    font-size: 2rem;
+    margin-top: 40px; /* Space above title */
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+    line-height: 1.6; /* Improved line spacing */
+  }
+  
+  .container ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .container li {
+    margin: 10px 0; /* Space between list items */
+  }
+  
+  /* Center align button */
+  .textAlign-center {
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .hero-section {
+      padding: 60px 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .hero-section h1 {
+      font-size: 2.5rem; /* Adjust heading size */
+    }
+  
+    .hero-section p {
+      font-size: 1.2rem; /* Adjust paragraph size */
+    }
+  
+    .container h4 {
+      font-size: 1.8rem; /* Adjust heading size */
+    }
+  }
+  
